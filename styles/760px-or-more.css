@@ -1,0 +1,52 @@
+@media screen and (max-width: 760px){
+  nav ul{
+    gap: 2em;
+  }  
+
+  nav ul li {
+    font-size: 15pt;
+    padding: 1em;
+}
+
+main figure {
+    float: left;
+    width: 90%;
+    gap: 0.4em;
+}
+
+figure img{
+    width: 50%;
+    height: 60%;
+}
+#main-content{
+    flex-direction: column;
+}
+
+#main-header{
+    height: 300px;
+}
+
+#main-header h1{
+    text-align: center;
+    font-size: 25pt;
+}
+
+#main-header h2{
+    text-align: center;
+    font-size: 15pt;
+}
+
+aside{
+    width: 100%;
+    height: 200%;
+    font-size: 10pt;
+}
+
+main p{
+    font-size: 12pt;
+}
+main{
+    width: 100%;
+}
+
+}

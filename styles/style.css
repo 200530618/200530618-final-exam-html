@@ -1,0 +1,199 @@
+@import url(./reset.css);
+*, *:before, *:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    padding: 1em;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+
+ }
+
+/* NAVIGATION */
+#main-nav{
+    background-color: gray;
+}
+
+#main-nav ul {
+
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2em;
+    line-height: 2em;
+    align-items: center;
+
+
+ }
+
+
+ #main-nav li {
+    padding: 1em;
+    font-size: 20;
+
+
+ }
+
+
+ #main-nav a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    padding: 1em;
+    font-weight: bold;
+    font-size: 1.4em;
+    transition: 0.25s;
+ }
+
+ #main-nav a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.1s;
+ }
+
+ 
+
+ 
+
+
+
+
+/* HEADER */
+header{
+    height: 300px;
+    display: flex;
+ }
+
+#main-header{
+    background: url(../images/hong-feng-GcgntG01Ibg-unsplash.jpg);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+}
+
+header > h1{
+    font-size: 30pt;
+    text-align: center;
+    
+}
+
+header > h2{
+    font-size: 20pt;
+    text-align: center;
+}
+
+/* MAIN CONTENT */
+main{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    margin: 2em;
+    gap: 3em;
+    width: 55%;
+    
+ }
+#main-content{
+    display: flex;
+}
+
+/* MAIN */
+figure{
+    float: left;
+    margin: 0em;
+    
+}
+figure cite{
+    display: block;
+}
+figure img{
+    width: 250px;
+}
+
+/* ASIDE */
+aside{
+    display: flex;
+    width: 30%;
+    order: 1;
+    margin: 3em;
+    font-size: 25;
+    margin: 1em;
+    flex-direction: column;
+    align-items: center;
+    
+
+    
+}
+
+aside > ul {
+    outline: 2px ;
+    font-size: 25;
+    margin: 1em;
+}
+
+aside h2{
+    font-size: 2em;
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.1em;
+}
+
+
+
+aside ul li:nth-of-type(odd) {
+    background-color: gray;
+}
+
+
+aside > ul h2{
+    background-color: gray;
+    font-size: 35;
+    margin: 0.5em;
+
+    
+}
+aside ul li{
+
+    margin: 1em;
+    display: flex;
+    padding: 1em;
+}
+
+
+
+
+/* FOOTER */
+footer{
+    background-color: grey;
+    float: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul{
+    display: flex;
+    width: 80px;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    flex-direction: row;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
